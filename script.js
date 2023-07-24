@@ -18,8 +18,8 @@ form.addEventListener("submit", function (event) {
     (checkbox) => checkbox.value
   );
    console.log(fname,lname,address,pincode,state,country);
-  if (foodChoices.length < 3) {
-    alert("Please choose at least 3 food options.");
+  if (foodChoices.length < 2) {
+    alert("Please choose at least 2 food options.");
     return;
   }
  
